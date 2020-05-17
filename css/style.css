@@ -29,33 +29,15 @@ html {
       font-size: 50%; } }
 
 body {
-  font-family: "Roboto", sans-serif;
+  font-family: 'Josefin Sans', sans-serif;
   font-weight: 400;
   line-height: 1.6;
   background-color: var(--color-primary-light); }
 
-@font-face {
-  font-family: "lemon-milk";
-  src: url("../fonts/LEMONMILK-Light.otf");
-  font-weight: 100;
-  font-style: normal; }
-
-@font-face {
-  font-family: "lemon-milk";
-  src: url("../fonts/LEMONMILK-Regular.otf");
-  font-weight: 300;
-  font-style: normal; }
-
-@font-face {
-  font-family: "lemon-milk";
-  src: url("../fonts/LEMONMILK-Medium.otf");
-  font-weight: 500;
-  font-style: normal; }
-
 .container {
   max-width: 120rem;
   margin: 15rem auto;
-  background-image: linear-gradient(to right bottom, #fff 50%, var(--color-primary-light));
+  background-image: linear-gradient(to right bottom, #fff 45%, var(--color-primary-light));
   box-shadow: var(--shadow-dark);
   display: flex;
   border-radius: 3px;
@@ -131,8 +113,7 @@ body {
       font-weight: 300;
       color: var(--color-primary-light); }
     .heading__text-sub {
-      font-family: "lemon-milk", sans-serif;
-      font-weight: 300;
+      font-weight: 600;
       text-transform: uppercase;
       line-height: 1; }
   .heading__paragraph {
